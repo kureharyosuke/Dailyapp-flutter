@@ -100,6 +100,10 @@ class HomeScreen extends StatelessWidget {
                         title: "Kegel Exercises",
                         svgSrc: "assets/icons/Excrecises.svg",
                       ),
+                      CategoryCard(
+                        title: "Yoga",
+                        svgSrc: "assets/icons/yoga.svg",
+                      ),
                     ],
                   ),
                 )
@@ -126,9 +130,16 @@ class CategoryCard extends StatelessWidget {
     return Container(
       padding: EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(13),
-      ),
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(13),
+          boxShadow: [
+            BoxShadow(
+              offset: Offset(0, 17),
+              blurRadius: 17,
+              spreadRadius: -23,
+              color: kShadowColor,
+            )
+          ]),
       child: Column(
         children: <Widget>[
           Spacer(),
