@@ -1,4 +1,5 @@
 # dailyapp
+![Simulator Screen Shot - iPhone 11 - 2020-07-07 at 20 37 02](https://user-images.githubusercontent.com/46742154/86775480-60cc9580-c092-11ea-9b9e-c9bbb1d4339e.png)
 
 A new Flutter project.
 
